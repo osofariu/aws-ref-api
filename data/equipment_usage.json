@@ -1,0 +1,202 @@
+{
+    "officeEquipment": [
+        {
+            "org": "Google",
+            "location": "Mountain View",
+            "id": 1,
+            "type": "chair",
+            "usage": {
+                "used_hours": 20
+            }
+        },
+        {
+            "org": "Google",
+            "location": "Mountain View",
+            "id": 2,
+            "type": "chair",
+            "usage": {
+                "used_hours": 30
+            }
+        },
+        {
+            "org": "Google",
+            "location": "Mountain View",
+            "id": 3,
+            "type": "desk",
+            "usage": {
+                "used_hours": 5
+            }
+        },
+        {
+            "org": "Google",
+            "location": "Seattle",
+            "id": 4,
+            "type": "chair",
+            "usage": {
+                "used_hours": 34
+            }
+        },
+        {
+            "org": "Google",
+            "location": "Seattle",
+            "id": 5,
+            "type": "desk",
+            "usage": {
+                "used_hours": 55
+            }
+        },
+        {
+            "org": "Google",
+            "location": "Seattle",
+            "id": 6,
+            "type": "chair",
+            "usage": {
+                "used_hours": 43
+            }
+        },
+        {
+            "org": "Google",
+            "location": "Seattle",
+            "id": 7,
+            "type": "desk",
+            "usage": {
+                "used_hours": 46
+            }
+        },
+        {
+            "org": "Google",
+            "location": "Austin",
+            "id": 8,
+            "type": "chair",
+            "usage": {
+                "used_hours": 4
+            }
+        },
+        {
+            "org": "Google",
+            "location": "Austin",
+            "id": 9,
+            "type": "chair",
+            "usage": {
+                "used_hours": 9
+            }
+        },
+        {
+            "org": "Amazon",
+            "location": "Houston",
+            "id": 10,
+            "type": "desk",
+            "usage": {
+                "used_hours": 83
+            }
+        },
+        {
+            "org": "Amazon",
+            "location": "Houston",
+            "id": 11,
+            "type": "desk",
+            "usage": {
+                "used_hours": 41
+            }
+        },
+        {
+            "org": "Amazon",
+            "location": "Houston",
+            "id": 12,
+            "type": "chair",
+            "usage": {
+                "used_hours": 54
+            }
+        },
+        {
+            "org": "Amazon",
+            "location": "Houston",
+            "id": 13,
+            "type": "desk",
+            "usage": {
+                "used_hours": 12
+            }
+        },
+        {
+            "org": "Amazon",
+            "location": "Ralleigh",
+            "id": 14,
+            "type": "chair",
+            "usage": {
+                "used_hours": 122
+            }
+        },
+        {
+            "org": "Amazon",
+            "location": "Ralleigh",
+            "id": 15,
+            "type": "chair",
+            "usage": {
+                "used_hours": 2
+            }
+        },
+        {
+            "org": "Amazon",
+            "location": "Ralleigh",
+            "id": 16,
+            "type": "desk",
+            "usage": {
+                "used_hours": 51
+            }
+        },
+        {
+            "org": "Amazon",
+            "location": "Des Moines",
+            "id": 17,
+            "type": "chair",
+            "usage": {
+                "used_hours": 70
+            }
+        },
+        {
+            "org": "Amazon",
+            "location": "Des Moines",
+            "id": 18,
+            "type": "chair",
+            "usage": {
+                "used_hours": 59
+            }
+        },
+        {
+            "org": "IBM",
+            "location": "Charlotte",
+            "id": 19,
+            "type": "desk",
+            "usage": {
+                "used_hours": 72
+            }
+        },
+        {
+            "org": "IBM",
+            "location": "Charlotte",
+            "id": 20,
+            "type": "desk",
+            "usage": {
+                "used_hours": 21
+            }
+        },
+        {
+            "org": "IBM",
+            "location": "Charlotte",
+            "id": 21,
+            "type": "chair",
+            "usage": {
+                "used_hours": 29
+            }
+        },
+        {
+            "org": "IBM",
+            "location": "Charlotte",
+            "id": 22,
+            "type": "desk",
+            "usage": {
+                "used_hours": 31
+            }
+        }
+    ]
+}

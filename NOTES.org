@@ -1,0 +1,20 @@
+#+TITLE: Things I want to remember
+
+* Commands
+
+** run function locally
+ sls invoke local -f hello -p src/functions/hello/mock.json
+sls invoke local -f utilization -p office_utilization.json
+
+** deply function to AWS
+ sls deploy function -f utilization
+
+** (re)deploy entire stack to AWS
+ sls deploy
+
+
+* Config AWS / serverless
+serverless config credentials --provider aws --key YOUR_ACCESS_KEY --secret YOUR_SECRET_KEY
+
+* Useful resources
+https://blog.shovonhasan.com/deploying-a-typescript-node-aws-lambda-function-with-serverless/
