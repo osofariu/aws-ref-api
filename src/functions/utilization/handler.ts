@@ -9,7 +9,12 @@ import schema from './schema'
 
 const utilization: ValidatedEventAPIGatewayProxyEvent<typeof schema> = async (event) => {
 
-  console.log("Invoked utilization function")
+  console.log(`Invoked utilization function with event: ${JSON.stringify(event)}`)
+
+  const org = event.body.org
+  const location = event.body.location
+  console.log(`org=${org}, location=${location}`)
+
   const result: S3Result = await getOfficeUtilization()
 
   if (result instanceof Error) {
