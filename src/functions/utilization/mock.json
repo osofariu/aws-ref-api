@@ -2,5 +2,5 @@
   "headers": {
     "Content-Type": "application/json"
   },
-  "body": "{\"org\": \"Google\" }"
+  "body": "{\"org\": \"Google\", \"location\": \"Seattle\" }"
 }

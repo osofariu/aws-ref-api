@@ -3,7 +3,7 @@ import 'source-map-support/register'
 import type { ValidatedEventAPIGatewayProxyEvent } from '@libs/apiGateway'
 import { formatJSONResponse, formatJSONErrorResponse } from '@libs/apiGateway'
 import { middyfy } from '@libs/lambda'
-import { S3Result, getOfficeUtilization } from '../../service/s3Client'
+import { S3Result, getOfficeUtilization } from '../../libs/s3Client'
 
 import schema from './schema'
 
