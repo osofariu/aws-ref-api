@@ -6,6 +6,7 @@ import { middyfy } from '@libs/lambda'
 import { S3Result, getOfficeUtilization } from '../../libs/s3Client'
 
 import schema from './schema'
+import { calcUsage, UsageRequest } from 'src/service/usage'
 
 const utilization: ValidatedEventAPIGatewayProxyEvent<typeof schema> = async (event) => {
 
@@ -24,8 +25,10 @@ const utilization: ValidatedEventAPIGatewayProxyEvent<typeof schema> = async (ev
       event,
     });
   } else {
+    const usageRequest: UsageRequest = {org, location }
+    const usageReport = calcUsage(usageRequest, result.officeEquipment)
     return formatJSONResponse({
-      message: `Got ${result.officeEquipment.length} records from S3`,
+      message: `For org: ${usageReport.org}, location: ${usageReport.location}, utilization is: ${usageReport.used_hours}`,
       event,
     });
   }
